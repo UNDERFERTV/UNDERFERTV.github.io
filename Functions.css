@@ -1,0 +1,299 @@
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.massive-text {
+    font-size: 30px;
+}
+
+body {
+    background-image: url('IMAGES/BACKGROUND.webp');
+    background-size: 30%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 180px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 15px; 
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #007a02;
+    transition: color 0.3s, border-color 0.3s;
+    
+}
+
+.button-NewestWork {
+    display: inline-block;
+    padding: 10px 120px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #007a02;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.button-back {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 10px; 
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #007a02;
+    transition: color 0.3s, border-color 0.3s;
+    
+}
+
+
+.buttontextcolor-green {
+    color: #009b03;
+}
+
+.buttontextcolor-lightgreen {
+    color: #48ae4a;
+}
+
+.buttontextcolor-red {
+    color: #ff0000;
+}
+
+.buttontextcolor-purple {
+    color: #dd00ff;
+}
+
+.button:hover {
+    color: #ff5e5e;
+    border-color: #ff5e5e;
+    font-size: 20;
+}
+
+.button::before,
+.button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+    opacity: 0;
+}
+
+
+.button:hover::before,
+.button:hover::after {
+    transform: translateX(50px);
+    opacity: 1;
+}
+
+.animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.animated-button:hover {
+    transform: scale(1.2);
+}
+
+.button-NewestWork:hover::before,
+.button-NewestWork:hover::after {
+    transform: translateX(50px);
+    opacity: 1;
+}
+
+
+@keyframes growAndShow {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animated-growSpeed {
+    animation: growAndShow 0.5s ease forwards;
+}
+
+.animated-grow {
+    animation: growAndShow 1s ease forwards;
+}
+
+.animated-growSlower {
+    animation: growAndShow 2s ease forwards;
+}
+
+.animated-growButton1 {
+    animation: growAndShow 2.4s ease forwards;
+}
+
+.animated-growButton2 {
+    animation: growAndShow 2.8s ease forwards;
+}
+
+.animated-growButton3 {
+    animation: growAndShow 3.2s ease forwards;
+}
+
+.container {
+    width: 100%;
+  }
+  
+  .left-side, .right-side {
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    box-sizing: border-box;
+    float: left;
+
+  }
+
+  .container-youtube {
+    width: 100%;
+  }
+  
+  .left-side-youtube, .right-side-youtube {
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    box-sizing: border-box;
+    float: left;
+
+  }
+
+  .text-box-youtube {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 8px; 
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #007a02;
+    transition: color 0.3s, border-color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.text-box-discord {
+    display: inline-block;
+    padding: 80px 100px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 20px; 
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #6d00e1;
+    transition: color 0.3s, border-color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.text-box-about {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 8px; 
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #007a02;
+    transition: color 0.3s, border-color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.image-container .image-original {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 1;
+}
+
+.image-container .image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+
+.image-container:hover .image-original {
+  opacity: 0;
+}
+
+.image-container:hover .image-hover {
+  opacity: 1;
+}
+
+.text-box-about {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 3;
+}   
