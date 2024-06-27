@@ -200,6 +200,50 @@ body {
 
   }
 
+  .text-box-Commission {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #000000;
+    text-decoration: none;
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #ff0000;
+    transition: color 0.3s, border-color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.text-box-Commission-Status {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #000000;
+    text-decoration: none;
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s, border-color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.text-box-Commission-Info {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #000000;
+    text-decoration: none;
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #ff0000;
+    transition: color 0.3s, border-color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+    width: 500px;
+    height: auto;
+
+}
+
   .text-box-youtube {
     display: inline-block;
     padding: 10px 10px;
@@ -215,7 +259,7 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 
-.text-box-discord {
+.text-box-contact {
     display: inline-block;
     padding: 80px 100px;
     background-color: #000000;
@@ -225,9 +269,28 @@ body {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    color: #6d00e1;
+    color: #ff0000;
     transition: color 0.3s, border-color 0.3s;
     font-family:'Courier New', Courier, monospace;
+}
+
+.text-box-contact-header {
+    display: inline-block;
+    padding: 80px 100px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 10px; 
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #ff0000;
+    transition: color 0.3s, border-color 0.3s;
+    font-family:'Courier New', Courier, monospace;
+
+    text-align: center;
+    width: 50%;
+
 }
 
 .text-box-about {
