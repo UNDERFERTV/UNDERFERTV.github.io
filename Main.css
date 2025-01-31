@@ -1,0 +1,402 @@
+body  {
+    background-image: url(Images/background.webp);
+    color: red;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Center {
+    text-align: center;
+    margin: auto;
+}
+
+.Red_Text {
+    color: red;
+}
+
+.Greed_Text {
+    color: green;
+}
+
+.SpecialLink {
+    text-decoration: underline;
+
+    transition: 0.5s;
+}
+
+.SpecialLink:hover {
+    font-size: 20px;
+}
+
+#EnterButton {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 40%;
+
+    color: red;
+    text-align: center;
+
+    transition: 0.5s;
+}
+
+#EnterButton:hover {
+    width: 60%;
+    font-size: 15px;
+}
+
+#PFP {
+    background-color: black;
+    border: 2px red solid;
+    
+    width: fit-content;
+    height: 205px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    transition: 0.5s;
+    height: 205px;
+}
+
+#PFP:hover {
+    filter: brightness(120%);
+    height: 210px;
+}
+
+#MostLiked {
+    height: 240px;
+
+    overflow-x: scroll;
+    scrollbar-color: rgb(255, 0, 0) rgb(82, 0, 0);
+    scrollbar-width:thin;
+
+    display: flex;
+}
+
+#BackButton {
+    border: 2px red solid;
+    background-color: black;
+
+    width: 20%;
+
+    color: red;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+
+    transition: 0.3s;
+}
+
+#BackButton:hover {
+    width: 30%;
+    font-size: 25px;
+}
+
+
+.PageButton {
+    background-color: black;
+    border: 2px red solid;
+    
+    height: 200px;
+    width: 200px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    font-size: 30px;
+    text-align:center;
+
+    transition: 0.5s;
+}
+
+.PageButton:hover {
+    background-color: rgb(20, 0, 0);
+    border: 2px rgb(255, 0, 0) solid;
+    
+    height: 200px;
+    width: 220px;
+
+    font-size: 35px;
+    text-align:center;
+
+}
+
+.MostLiked_img {
+    border: 2px rgb(200, 0, 0) solid;
+
+    width: fit-content;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    transition: 0.5s;
+    height: 230px;
+    
+    filter: brightness(80%);
+}
+
+.MostLiked_img:hover {
+    border: 2px rgb(250, 0, 0) solid;
+    filter: brightness(110%);
+}
+
+.VideosImg {
+    width: fit-content;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    transition: 0.5s;
+    height: 230px;
+    
+    filter: brightness(80%);
+}
+
+.VideosImg:hover {
+    filter: brightness(110%);
+}
+
+.Container_fit {
+    padding: 10px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: fit-content;
+
+    text-align: left;
+}
+
+.Container90 {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 90%;
+
+    text-align: left;
+}
+
+.Container90_invisible {
+    padding: 5px;
+
+    
+    width: 90%;
+}
+
+.Container80 {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 90%;
+
+    text-align: left;
+}
+
+.Container50 {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 50%;
+}
+
+.Container50_nopadding {
+    padding: 0px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 50%;
+}
+
+.Container38_invisible_inline {
+    padding: 5px;
+    
+    width: 38%;
+    display: inline-block;
+
+    vertical-align:top;
+}
+
+.Container30 {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 30%;
+}
+
+.Container_photo300px {
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: fit-content;
+    height: 300px;
+}
+
+.Container31_invisible {
+    padding: 5px;
+
+    
+    width: 31%;
+
+    display: inline-block;
+
+    vertical-align:top;
+}
+
+/* Video */
+.Container_Video {
+    padding: 2px;
+    width: 70%;
+    height: 250px;
+
+    transition: 1s;
+}
+.Container_Video:hover {
+    height: 300px;
+    width: 90%;
+}
+
+.VideoGallery_Container_Photo {
+    padding: 0px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: fit-content;
+
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.VideoGallery_Container_Photo {
+    padding: 0px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: fit-content;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    transition: 1s;
+}
+
+.VideoGallery_Container_Info {
+    padding: 0px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 50%;
+
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+/* COMMISSION */
+
+.Container_Commission_header {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 95%;
+
+    display: inline-block;
+
+    vertical-align:top;
+}
+
+.Container_Commission {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 85%;
+
+    display: inline-block;
+
+    vertical-align:top;
+}
+
+.Image_Commission {
+
+    background-color: black;
+    border: 2px red solid;
+    
+    height: 220px;
+    width: fit-content;
+
+    vertical-align:top;
+}
+
+
+.Commission_Button {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 90%;
+
+    display: inline-block;
+
+    vertical-align:top;
+
+    transition: 0.5s;
+}
+
+.Commission_Button:hover {
+    font-size: 20px;
+    background-color: rgb(20, 0, 0);
+    width: 95%;
+}
+
+/* CONTACT AND PAYMENTS */
+
+.Container_ContactPayments_header {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 95%;
+
+    display: inline-block;
+
+    vertical-align:top;
+}
+
+.Container_ContactPayments {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 80%;
+
+    display: inline-block;
+
+    vertical-align:top;
+}
