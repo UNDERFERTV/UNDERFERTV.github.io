@@ -19,7 +19,7 @@ a {
     color: red;
 }
 
-.Greed_Text {
+.Green_Text {
     color: green;
 }
 
@@ -31,6 +31,10 @@ a {
 
 .SpecialLink:hover {
     font-size: 20px;
+}
+
+#PFP_Phone_Div {
+    display: none;
 }
 
 #EnterButton {
@@ -49,7 +53,11 @@ a {
 
 #EnterButton:hover {
     width: 60%;
-    font-size: 15px;
+    font-size: medium;
+}
+
+#EnterButton p{
+    font-size: x-small;
 }
 
 #PFP {
@@ -69,6 +77,20 @@ a {
 #PFP:hover {
     filter: brightness(120%);
     height: 210px;
+}
+
+#PFP_Phone {
+    background-color: black;
+    border: 2px red solid;
+    
+    width: fit-content;
+    height: 300px;
+
+    margin: auto;
+    vertical-align: middle;
+
+    transition: 0.5s;
+    height: 205px;
 }
 
 #MostLiked {
@@ -105,13 +127,13 @@ a {
     background-color: black;
     border: 2px red solid;
     
-    height: 200px;
-    width: 180px;
+    width: 11%;
+    height: 100%;
 
     display: inline-block;
     vertical-align: middle;
 
-    font-size: 30px;
+    font-size: large;
     text-align:center;
 
     transition: 0.5s;
@@ -121,13 +143,27 @@ a {
     background-color: rgb(20, 0, 0);
     border: 2px rgb(255, 0, 0) solid;
     
-    height: 200px;
-    width: 220px;
+    width: 13%;
+    height: 100%;
 
-    font-size: 35px;
+    font-size: larger;
     text-align:center;
 
 }
+
+
+.MostLikedContainer {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 90%;
+    height: 300px;
+
+    text-align: left;
+}
+
 
 .MostLiked_img {
     border: 2px rgb(200, 0, 0) solid;
@@ -162,6 +198,21 @@ a {
 
 .VideosImg:hover {
     filter: brightness(110%);
+}
+
+
+.WarningText_Container {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 50%;
+}
+
+.MainButtonsContainer {
+    width: 100%;
+    height: 200px;
 }
 
 .Container_fit {
@@ -231,6 +282,15 @@ a {
     vertical-align:top;
 }
 
+.Warning_Container {
+    padding: 5px;
+
+    background-color: black;
+    border: 2px red solid;
+    
+    width: 30%;
+}
+
 .Container30 {
     padding: 5px;
 
@@ -284,21 +344,6 @@ a {
     display: inline-block;
 
     vertical-align: middle;
-}
-
-.VideoGallery_Container_Photo {
-    padding: 0px;
-
-    background-color: black;
-    border: 2px red solid;
-    
-    width: fit-content;
-
-    display: inline-block;
-
-    vertical-align: middle;
-
-    transition: 1s;
 }
 
 .VideoGallery_Container_Info {
@@ -401,4 +446,8 @@ a {
     display: inline-block;
 
     vertical-align:top;
+}
+
+.Container_ContactPayments a{
+    text-decoration: underline;
 }

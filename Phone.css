@@ -1,0 +1,199 @@
+@media (max-width: 1000px) {
+    body  {
+        background-image: url("Images/Phone_BG.webp");
+        background-color: rgb(83, 0, 0);
+    }
+
+    
+
+    .Warning_Container {
+        padding: 5px;
+    
+        background-color: black;
+        border: 2px red solid;
+        font-size: xx-large;
+        
+        width: 70%;
+    }
+
+    .Container_photo300px {
+
+        background-color: black;
+        border: 2px red solid;
+        
+        width: fit-content;
+        height: 500px;
+    }
+
+    .WarningText_Container {
+        padding: 5px;
+    
+        background-color: black;
+        border: 2px red solid;
+        font-size: xx-large;
+        
+        width: 90%;
+    }
+
+    #EnterButton {
+        padding: 5px;
+    
+        background-color: black;
+        border: 2px red solid;
+        
+        width: 80%;
+    
+        color: red;
+        text-align: center;
+        font-size: xx-large;
+    
+        transition: 0.5s;
+    }
+
+    #EnterButton p{
+        font-size: large;
+    }
+    
+    #EnterButton:hover {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    #PFP {
+        display: none;
+    }
+
+    #PFP_Phone {
+        display: block;
+    }
+
+    #PFP_Phone_Div {
+        display: block;
+    }
+
+    .MainButtonsContainer {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .PageButton {
+        background-color: black;
+        border: 2px red solid;
+        
+        width: 30%;
+        height: 250px;
+    
+        font-size: xx-large;
+        text-align:center;
+    
+        transition: 0.5s;
+    }
+    
+    .PageButton:hover {
+        width: 30%;
+        height: 250px;
+    }
+
+    .MostLiked_img {
+        height: 400px;
+    }
+
+    #MostLiked {
+        height: 400px;
+    }
+
+    #BackButton {
+        width: 50%;
+        height: 50px;
+    }
+    
+    #BackButton:hover {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .Image_Commission {
+        height: auto;
+        width: 100%;
+    }
+    
+}
+
+
+/* Video */
+
+@media (max-width: 1000px) {
+
+    .Container_Video {
+        padding: 2px;
+        width: 70%;
+        height: auto;
+    
+        transition: 1s;
+    }
+    .Container_Video:hover {
+        height: 300px;
+        width: 95%;
+    }
+    
+    .VideoGallery_Container_Photo {
+        padding: 0px;
+    
+        background-color: black;
+        border: 2px red solid;
+        
+        width: 80%;
+    
+        display: inline-block;
+    
+        vertical-align: middle;
+    }
+    
+    .VideosImg {
+    
+        display: inline-block;
+        vertical-align: middle;
+        
+        width: 100%;
+        height: auto;
+
+        transition: 0.5s;
+        
+        filter: brightness(80%);
+    }
+    
+    .VideoGallery_Container_Info {
+        padding: 0px;
+    
+        background-color: black;
+        border: 2px red solid;
+        
+        width: 80%;
+
+        font-size: larger;
+    
+        display: inline-block;
+    
+        vertical-align: middle;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+
+    .Container_ContactPayments {
+        padding: 5px;
+    
+        background-color: black;
+        border: 2px red solid;
+        
+        font-size: x-large;
+
+        width: 90%;
+    }
+    
+}
