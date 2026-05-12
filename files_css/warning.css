@@ -1,0 +1,49 @@
+body {
+    background-image: url('../images/background.webp');
+    background-size: 100%;
+    color: red;
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+    aspect-ratio: 1/1;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+main {
+    border: 5px red solid;
+    background-color: black;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
+}
+
+img, p, h2{
+    border-top: 2px red solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+button {
+    border: 0px;
+    border-top: 2px red solid;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    font-size: xx-large;
+}
+
+button:hover {
+    background-color: maroon;
+}

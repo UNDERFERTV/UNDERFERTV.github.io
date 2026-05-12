@@ -1,0 +1,85 @@
+@media (max-width: 700px) {
+    header button, nav button {
+        font-size: 100%;
+    }
+
+    
+    .header_main_between {
+        display: flex;
+        height: 30vw;
+        justify-content: space-between;
+    }
+
+    .video_gallery_button {
+        height: 100%;
+        flex: 1;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 1570px) {
+        .commission_box div h1{
+        padding-left:0px;
+        font-size: 110%;
+    }
+
+    .commission_box div h2{
+        padding-left:0px;
+        font-size: 90%;
+    }
+
+    .commission_box div p{
+        padding-left:0px;
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .commission_box_image_container {
+        display: none;
+        text-align: center !important;
+    }
+    
+}
+
+
+
+@media (max-width: 900px) {
+    .section_height_1{
+        height: 50vw;
+    }
+
+    .section_height_2{
+        height: 40vw;
+    }
+
+    .section_height_3{
+        height: 30vw;
+    }
+}
+@media (max-width: 700px) {
+    .section_height_1{
+        height: 85vw;
+    }
+
+    .section_height_2{
+        height: 75vw;
+    }
+
+    .section_height_3{
+        height: 60vw;
+    }
+}
+@media (max-width: 500px) {
+    .section_height_1{
+        height: 100vw;
+    }
+
+    .section_height_2{
+        height: 80vw;
+    }
+
+    .section_height_3{
+        height: 70vw;
+    }
+}

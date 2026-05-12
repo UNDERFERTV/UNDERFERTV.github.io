@@ -1,0 +1,77 @@
+.section_width_full{
+    display: inline-block;
+    width: 99%;
+    height: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.section_width_half{
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.section_width_one_third{
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.section_width_two_third{
+    display: inline-block;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.section_width_four_fifth{
+    display: inline-block;
+    width: 79%;
+    height: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.section_height_1{
+    height: 25vw;
+}
+
+.section_height_2{
+    height: 20vw;
+}
+
+.section_height_3{
+    height: 15vw;
+}
+
+
+.section_height_half{
+    height: 49%;
+}
+
+.section_height_one-third{
+    height: 32%;
+}
+.section_height_two-third{
+    height: 65%;
+}
+
+.section_height_one-forth{
+    height: 24%;
+}
+.section_height_three-forth{
+    height: 74%;
+}
+
+.section_height_one-fifth{
+    height: 19%;
+}
+.section_height_four-fifth{
+    height: 79%;
+}

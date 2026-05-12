@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/x-icon" href="Icon.ico">
+
+        <link rel="stylesheet" href="files_css/main.css">
+        <link rel="stylesheet" href="files_css/section.css">
+        <link rel="stylesheet" href="files_css/responsive.css">
+
+
+        <title> Main / UNDERFERTV </title>
+    </head>
+
+    <body>
+        <header>
+            <a href="https://www.deviantart.com/underfertv" target="_blank"> <button> <b>Deviantart</b> </button> </a>
+            <a href="https://rule34.xxx/index.php?page=post&s=list&tags=underfertv" target="_blank"> <button> <b>Rule 34</b> </button> </a>
+            <a href="https://x.com/UNDERFERTV" target="_blank"> <button> <b>X / Twitter</b> </button> </a>
+        </header>
+
+        <section class="header_main_between">
+            <section class="icon_container"><img src="images/profile_picture.png"></section>
+            <section class="zea_container">
+                <a href="https://www.deviantart.com/underfertv/tier/1267074024" target="_blank"></a>
+            </section>
+        </section>
+
+        <nav>
+            <a href="#bookmark_newspaper"> <button> newspaper </button> </a>
+            <a href="#bookmark_video_gallery"> <button> video gallery </button> </a>
+            <a href="#bookmark_commission"> <button> commission </button> </a>
+            <a href="#bookmark_payments"> <button> payments </button> </a>
+            <a href="#bookmark_contacts"> <button> contacts </button> </a>
+        </nav>
+
+        <main>
+
+            <!-- News -->
+            <section class="section_height_2">
+                <div id="bookmark_newspaper" class="bookmark"></div>
+                <section class="section_height_one-forth flex_center_text">
+                    <h1> Newspaper </h1>
+                </section>
+                <section class="section_height_three-forth">
+                    <a class="content_voting" href="https://forms.gle/4eMiss4bECN5qD4D9" target="_blank"></a>
+                </section>
+            </section>
+
+            <!-- Videos manager-->
+            <section class="section_height_2">
+                <div id="bookmark_video_gallery" class="bookmark"></div>
+                <section class="section_height_one-forth flex_center_text">
+                    <h1> Video gallery </h1>
+                </section>
+                <section class="section_height_three-forth">
+                    <section class="section_height_four-fifth" id="video_gallery">
+                    </section>
+                    <!-- buttons -->
+                    <section class="section_height_one-fifth flex_center_text">
+                        <button onclick="video_gallery_move(-250)" class="video_gallery_button"> &lt; </button>
+                        <button onclick="video_gallery_move(250)" class="video_gallery_button"> &gt; </button>
+                    </section>
+                </section>
+            </section>
+
+            <!-- Commission information -->
+            <section class="section_height_1">
+                <div id="bookmark_commission" class="bookmark"></div>
+                <section class="section_height_one-fifth flex_center_text">
+                    <h1> Commission </h1>
+                </section>
+                <section class="section_height_four-fifth">
+                    <section class="section_height_one-fifth flex_center_text">
+                        <h3 id="commission_status_label"></h3>
+                    </section>
+                    <section class="section_height_four-fifth commission_box">
+                        <div>
+                                <section class="commission_box_image_container">
+                                    <img src="images/commission/commission_3d/commission_1.png">
+                                </section>
+
+                                <section class="commission_box_information_container">
+                                    <h1> Blender / SFM </h1>
+                                    <h2> Scene - 3$~10$</h2>
+                                    <h2> Comic (2 pages) - 6$~12$ </h2>
+
+                                    <h2> Video - 15$~30$ </h2>
+
+                                    <p> Price depends on commission and its complexity.  </p>
+                                </section>
+                        </div>
+                        <div>
+                                <section class="commission_box_image_container">
+                                    <img src="images/commission/commission_roblox/commission_1.png">
+                                </section>
+
+                                <section class="commission_box_information_container">
+                                    <h1> Roblox </h1>
+                                    <h2> Scene - 3$~8$</h2>
+                                    <h2> Comic (2 pages) - 6$~10$ </h2>
+
+                                    <h2> Video - 15$~25$ </h2>
+
+                                    <p> Price depends on commission and its complexity.  </p>
+                                </section>
+                        </div>
+                    </section>
+                </section>
+                </section>
+            </section>
+
+            <!-- Paymets -->
+            <section class="section_height_2">
+                <div id="bookmark_payments" class="bookmark"></div>
+                <section class="section_height_one-forth flex_center_text">
+                    <h1> Payments </h1>
+                </section>
+                <section class="section_height_three-forth">
+                    <section class="section_height_two-third">
+                        <img src="images/icons/Paypal.png" class="payments_img">
+                        <a href="https://ko-fi.com/A0A4ZVCT5" target="_blank"><img src="images/icons/Ko-fi.png"  class="payments_img"></a>
+                    </section>
+                    <section class="section_height_one-third flex_center_text">
+                        <h2> Payments can be done only by Paypal and Ko-fi.</h2>
+                    </section>
+                </section>
+            </section>
+
+            <!-- Contacts -->
+            <section class="section_height_2">
+                <div id="bookmark_contacts" class="bookmark"></div>
+                <section class="section_height_one-forth flex_center_text">
+                    <h1> Contacts </h1>
+                </section>
+                <section class="section_height_three-forth">
+                    <section class="section_height_two-third">
+                        <img src="images/icons/Deviantart.png" class="contacts_img">
+                        <img src="images/icons/Twitter_x.png"  class="contacts_img">
+                    </section>
+                    <section class="section_height_one-third flex_center_text">
+                        <h2> Contact me using the built-in chats on Deviantart or X/Twitter. </h2>
+                    </section>
+                </section>
+            </section>
+        </main>
+
+
+        <script src="files_java_script/load.js"> </script>
+        <script src="files_java_script/buttons.js"> </script>
+    </body>
+</html>
