@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 1570px) {
-        .commission_box div h1{
+    .commission_box div h1{
         padding-left:0px;
         font-size: 110%;
     }
@@ -32,12 +32,35 @@
         padding-left:0px;
         font-size: 80%;
     }
+
+}
+
+@media (max-width: 1000px) {
+    main {
+        min-height: 2000px;
+    }
+    .contact_and_other_button{
+        width: 30%;
+    }
 }
 
 @media (max-width: 700px) {
-    .commission_box_image_container {
-        display: none;
-        text-align: center !important;
+    .rules_container, .image_price_container{
+        padding-top: 10px;
+        display: block;
+        width: 95%;
+        margin: auto;
+        padding-bottom: 10px;
+
+        overflow-y: auto;
+    }
+
+    .commission_image{
+        width: 80%;
+    }
+
+    .prices{
+        width: 100%;
     }
     
 }

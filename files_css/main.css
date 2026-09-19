@@ -8,7 +8,7 @@ body {
     background-image: url('../images/background.webp');
     background-size: 100%;
     width: 100%;
-    min-width: 100vw; /* <-- to wymusi że body zawsze = szerokość ekranu */
+    min-width: 100vw;
     color: red;
 }
 
@@ -89,19 +89,22 @@ a {
 
 nav {
     background-color: black;
-    border: 2px red solid;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
     width: 100%;
+    overflow: hidden;
     height: 50px;
     padding: 0px;
     text-align: center;
     display: flex;
 }
 
+
 main {
     background-color: black;
     /* border: 2px red solid; */
     width: 100%;
-    height: 230vh;
+    height: fit-content;
     padding: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -143,47 +146,56 @@ main {
     font-size: 150%;
 }
 
-.commission_box {
-    display: flex;
-    text-align: left !important;
+/*  */
+
+.commission_information{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.commission_box p{
-    color:crimson;
-}
-
-.commission_box div{
-    display: flex;
-    padding: 5px;
-    padding-left: 10px;
+.commission_image{
+    width: 25vw;
+    max-width: 90%;
+    aspect-ratio: 16/9;
 }
 
 
-.commission_box_information_container{
-    padding-left: 10px;
-    height: 100%;
-    flex: 3;
-    vertical-align: top;
-}
-
-.commission_box_image_container {
-    height: 100%;
-    flex: 1;
-    text-align: right;
-}
-
-.commission_box_image_container img {
-    height: 100%;
-    aspect-ratio: 1/1;
+.prices{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    width: 80%;
     display: block;
+    margin: auto;
+
+    font-size: larger;
+}
+
+.prices h2{
+    font-size: xx-large;
+}
+
+.rules{
+    text-align: left;
+}
+
+hr{
+    color: red;
+}
+
+.contant_and_other {
+    display: block;
+    width: 100%;
     margin: auto;
 }
 
-.payments_img, .contacts_img {
-    border: 2px red solid;
+.contact_and_other_button{
+    border: 5px red solid;
+    background-image: url("../images/Zea/Zea_Laying.png");
+    background-size: 100%;
+    width: 10%;
     aspect-ratio: 1/1;
-    height: 100%;
-    
+    display: inline-block;
 }
 
 .flex_center_text {
@@ -193,8 +205,7 @@ main {
 }
 
 
-.content_voting {
-    background-image: url("../images/content_voting.png");
+.newspaper_new {
     background-size: 100%;
     background-repeat: no-repeat;
     display: block;
@@ -202,4 +213,10 @@ main {
     max-width: 80vw;
     aspect-ratio: 16/9;
     margin: auto;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    padding-left: 20px;
 }

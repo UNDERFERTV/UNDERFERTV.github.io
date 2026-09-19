@@ -4,15 +4,18 @@ const video_gallery = document.getElementById("video_gallery")
 const commission_status_label = document.getElementById("commission_status_label")
 function load(){
     console.log("loading")
-        video_gallery.innerHTML = `
-        ${Video_New("Girlfriend's magic", "https://www.deviantart.com/underfertv/art/1153684494")}
+    video_gallery.innerHTML = `
+        ${Video_New("Toy chica's service repair", "https://www.deviantart.com/underfertv/art/1373584814")}
+        ${Video_New("Sky response", "https://www.deviantart.com/underfertv/art/1357531710")}
+        ${Video_New("Princess's Feast in Hyrule Field", "https://www.deviantart.com/underfertv/art/1345299463")}
+        ${Video_New("Girlfriend's magic", "https://www.deviantart.com/underfertv/art/1330505281")}
         ${Video_New("Endurance test", "https://www.deviantart.com/underfertv/art/1311698730")}
-        ${Video_New("Scrap Baby off guard attack", "https://www.deviantart.com/underfertv/art/1153684494")}
+        ${Video_New("Scrap Baby off guard attack", "https://www.deviantart.com/underfertv/art/[3K]-Scrap-Baby-off-guard-attack-Vore-animation-1299396506")}
         ${Video_New("Circus Baby got into the office", "https://www.deviantart.com/underfertv/art/1297760836")}
         ${Video_New("Merry Christmas 2025", "https://www.deviantart.com/underfertv/art/1273562605")}
-        ${Video_New("2K watchers special", "https://www.deviantart.com/underfertv/art/1153684494")}
-        ${Video_New("Nighttime fun with an air tank", "https://www.deviantart.com/underfertv/art/1153684494")}
-        ${Video_New("Angelica's kiddnaping", "https://www.deviantart.com/underfertv/art/1153684494")}
+        ${Video_New("2K watchers special", "https://www.deviantart.com/underfertv/art/2K-watchers-special-Water-inflation-1232289709")}
+        ${Video_New("Nighttime fun with an air tank", "https://www.deviantart.com/underfertv/art/Nighttime-fun-with-an-air-tank-Hyper-infaltion-1226414460")}
+        ${Video_New("Angelica's kiddnaping", "https://www.deviantart.com/underfertv/art/Angelica's-Kiddnaping---ROBLOX-COMMISSION-1176430144")}
         ${Video_New("Sister Angela vs Demons", "https://www.deviantart.com/underfertv/art/1153684494")}
         ${Video_New("Lullaby GF Forced Inflation", "https://www.deviantart.com/underfertv/art/1153379557")}
         ${Video_New("Circus Baby snack", "https://www.deviantart.com/underfertv/art/1114668423")}
@@ -23,7 +26,6 @@ function load(){
         ${Video_New("Toga Vores Uraraka", "https://www.deviantart.com/underfertv/art/964895352")}
         ${Video_New("Chara Vore Animation", "https://www.deviantart.com/underfertv/art/960842831")}
     `
-
 
     commission_status_label.innerHTML = Comssision_status
 }
